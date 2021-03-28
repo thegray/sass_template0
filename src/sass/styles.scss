@@ -1,0 +1,14 @@
+@import "test/test";
+
+@import "./abstract/variables";  // variable declarations
+@import "./abstract/mixins";     // mixin declarations
+
+@import "./base/base";           // *, html, body styles / CSS reset
+@import "./base/typography";     // typography-related styles
+
+@import "./layout/header";       // layout components styles
+@import "./layout/footer";
+
+@import "./pages/page1";         // styles specific to pages 
+
+@import "./components/component1"; // reusable components styles eg. buttons
